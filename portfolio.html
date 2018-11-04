@@ -96,7 +96,51 @@ background-image: url(https://subtlepatterns.com/patterns/kindajean.png);
 	padding: 10px;
 	border-bottom: 2px solid  #dddddd;
     margin: 20px 20px 40px 20px;
+        }
+
+
+    .container {
+  /* height: 200px; */
+  width: auto;
+  position: relative; /*lets you position children relative to this element */
 }
+
+.img-fluid {
+  /*makes image size identical to container*/
+  width: auto;
+}
+
+.banner {
+  height: 70px;
+  width: 100%; /* 100% of container width*/
+  position: absolute; /*lets you position banner relative to relatively-positioned parent container*/
+  bottom: 15px; /*positions it 15px from bottom of container*/
+  background-color: teal;
+  display: flex; /*let's you use the next two properties*/
+  justify-content: center; /*centers .banner's children along x axis*/
+  align-items: center; /*centers .banner's children along y axis*/
+}
+
+.img-fluid {
+    max-width:100%;
+}
+h2 {
+    background-color: #bebebe;
+    opacity: .8;
+    position: absolute;
+    bottom: 30px; 
+    width: 80%;
+    border-radius: 5px;
+    font-size: 28px;
+    text-align: left;
+    float:left;
+    margin-left:5px;
+    color:rgb(32, 32, 32);
+    font-family: "Georiga, 'Times New Roman', serif";
+   
+
+}
+
     
     </style>
 </head>
@@ -139,31 +183,37 @@ background-image: url(https://subtlepatterns.com/patterns/kindajean.png);
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <a href="#" class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/city-q-c-640-480-7.jpg"
-                                alt="">
+                        alt="">
+                        <h2>Sample</h2>
                         </a>
+                       
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <a href="#" class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/city-q-c-640-480-6.jpg"
                                 alt="">
+                                <h2>Sample2</h2>
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <a href="#" class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/technics-q-c-640-480-4.jpg"
                                 alt="">
+                                <h2>Sample3</h2>
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <a href="#" class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/food-q-c-640-480-3.jpg"
                                 alt="">
+                                <h2>Sample4</h2>
                         </a>
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <a href="#" class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="http://lorempixel.com/output/city-q-c-640-480-4.jpg"
                                 alt="">
+                                <h2>Sample5</h2>
                         </a>
 
                     </div>
